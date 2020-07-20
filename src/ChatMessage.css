@@ -1,0 +1,30 @@
+.chat-message {
+  display: flex;
+  padding: 0.5rem;
+  margin: 3rem;
+}
+.chat-message > div {
+  margin: 1rem;
+}
+.avatar {
+  border-radius: 50%;
+  height: 100px;
+}
+.received-text {
+  background-color: #e9e9eb;
+  color: #000;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+.sent-text {
+  position: absolute;
+  right: 0;
+  background-color: #1185f7;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
