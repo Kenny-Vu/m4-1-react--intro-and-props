@@ -11,7 +11,6 @@ const SentMessage = (props) => {
   );
 };
 const ReceivedMessage = (props) => {
-  console.log(props.message);
   return (
     <div className="chat-message">
       <img className="avatar" src={props.message.user.avatar} />
