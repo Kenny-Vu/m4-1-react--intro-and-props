@@ -5,4 +5,18 @@ footer {
   */
   backdrop-filter: blur(40px);
   background-color: rgba(255, 255, 255, 0.4);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 100px;
+  bottom: 0;
+}
+.input {
+  width: 80%;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 8px;
 }
