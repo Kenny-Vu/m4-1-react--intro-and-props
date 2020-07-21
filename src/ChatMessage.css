@@ -1,7 +1,7 @@
 .chat-message {
   display: flex;
-  padding: 0.5rem;
-  margin: 3rem;
+  padding: 1rem;
+  margin: 2rem;
 }
 .chat-message > div {
   margin: 1rem;
@@ -11,12 +11,18 @@
   height: 100px;
 }
 .received-text {
+  position: absolute;
   background-color: #e9e9eb;
   color: #000;
   border-radius: 8px;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0;
   font-size: 1.25rem;
+}
+.received-text-tip {
+  position: absolute;
+  bottom: 0;
+  left: -13px;
 }
 .sent-text {
   position: absolute;
@@ -25,6 +31,11 @@
   color: #fff;
   border-radius: 8px;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 0 2.5rem;
   font-size: 1.25rem;
+}
+.sent-text-tip {
+  position: absolute;
+  bottom: 0;
+  right: -12px;
 }
